@@ -36,6 +36,7 @@ public static void main(String[] args) {
 	session.save(add);
 	
 	//this is emp save
+	// this krishna branch
 	session.save(employeeBean);
 	tx.commit();
 	session1.close();
