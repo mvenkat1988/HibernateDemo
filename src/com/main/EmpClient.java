@@ -34,6 +34,8 @@ public static void main(String[] args) {
 	add.setpAdd("RCL");
 	add.setcAdd("HYD");
 	session.save(add);
+	
+	//this is emp save
 	session.save(employeeBean);
 	tx.commit();
 	session1.close();
